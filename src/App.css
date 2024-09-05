@@ -21,18 +21,77 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(6, 6, 6);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+.butoes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+
+  padding: 5px;
+  margin: 30px;
+}
+
+.tabela {
+  width: 100%;
+  margin: 20px;
+
+  
+  background-color: #61dafb;
+  padding: 50px;
+
+
+}
+
+
+td {
+  padding: 10px;
+  border: 2px solid #0f0e0e;
+  background-color: aliceblue;
+}
+
+
+
+
+
+.meuform {
+  width: 100%;
+  text-align: left;
+  padding: 50px;
+
+
+
 }
